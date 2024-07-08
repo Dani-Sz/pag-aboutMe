@@ -1,2 +1,82 @@
 /*Navbar*/
 /*Termina Navbar*/
+html {
+    background-color: rgb(241, 241, 233);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+.cabecera {
+text-align: center;
+}
+.apartado img {
+    width: 45px;
+    height: 45px;
+}
+.apartado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+    width: 380px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+#secciones {
+    display: flex;
+    flex-direction: column;
+}
+.primera {
+    display: flex;
+    flex-direction: row;
+}
+.segunda {
+    display: flex;
+    flex-direction: row;
+}
+p {
+  text-align: justify;  
+}
+h2 {
+text-align: center;
+}
+.apartado .logo {
+    margin-bottom: 100px;
+}
+.flecha {
+    position: relative;
+    padding-bottom: 15px;
+}
+.flecha::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(./flecha.png);
+    background-size: cover;
+}
+#banquete {
+    border-top-left-radius: 35px;
+}
+#dulces {
+    border-top-right-radius: 35px;
+}
+#botanas {
+    border-top-left-radius: 35px;
+}
+#cafeteria {
+    border-top-right-radius: 35px;
+}
